@@ -22,8 +22,13 @@ function Buttons () {
 
 function Banner(){
   return(
-    <div id="bannerSection" className=" flex flex-col justify-between items-center gap-20">
+    <div id="bannerSection" className=" flex flex-col justify-center md:justify-center lg:justify-between items-center gap-12 md:gap-20 lg:gap-20">
       <img src="/logo.png" alt="Grace's Driving School" className="max-sm:w-4/5 max-sm:mt-[25%] max-md:w-3/4 max-md:mt-[10%]  md:w-2/5 md:mt-[3%] lg:mt-[5%] lg:w-2/6 xl:w-1/4 xl:mt-[4%]" />
+      <div className='flex flex-col justify-center items-center gap-5'>
+        <h1 className='text-white font-bold text-xl md:text-4xl center shadow-lg manual-shadow'>Your #1 Choice For Driving Lessons</h1>
+
+        <h1 className='text-white font-bold text-xl md:text-4xl center manual-shadow'>Learn To Drive With Patient Instructors</h1>
+      </div>
       <Buttons />
     </div>
   );

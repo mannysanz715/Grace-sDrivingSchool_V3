@@ -2,8 +2,12 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/office.jpg);
   filter: 50%;
   background-size: cover;
-  height: 92vh;
+  height: 93vh;
   background-position: 50%;
+}
+
+.manual-shadow{
+  filter: drop-shadow(-3px 4px 5px #44bffd);
 }
 
 @media screen and (max-width: 800px) {
